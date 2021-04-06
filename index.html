@@ -40,15 +40,13 @@
             <h2>a better way to camp</h2>
           </div>
           <div class="col col-md-4 col-xl-2 mt-4">
-            <a href="#reserveForm" class="text-nowrap">
-              <button
-                type="button"
-                class="btn btn-info btn-lg"
-                data-target="#reserveForm"
-              >
-                Reserve Campsite
-              </button></a
+            <a
+              href="#reserveForm"
+              class="text-nowrap btn btn-info btn-lg"
+              data-target="#reserveForm"
             >
+              Reserve Campsite
+            </a>
           </div>
         </div>
       </div>
@@ -118,7 +116,7 @@
       </div>
 
       <div class="row row-content align-items-center">
-        <div class="col-sm-4 col-md-3 4">
+        <div class="col-sm-4 col-md-3">
           <h2>Featured Campsites</h2>
         </div>
         <div class="col">
@@ -167,15 +165,16 @@
       <div class="row row-content">
         <div class="col col-sm-6 mx-auto">
           <div class="card">
-            <h3 class="car-header bg-info">Reserve a Campsite</h3>
+            <h3 class="card-header bg-info">Reserve a Campsite</h3>
             <div class="card-body">
               <form id="reserveForm">
                 <div class="row form-group">
-                  <div class="col col-sm-6 col-xs-12">
-                    <label for="numCampers" class="col-form-label"
-                      >Number of Campers</label
-                    >
-                  </div>
+                  <label
+                    for="numCampers"
+                    class="col col-sm-6 col-xs-12 col-form-label"
+                    >Number of Campers</label
+                  >
+
                   <div class="col">
                     <select
                       name="numCampers"
@@ -193,9 +192,12 @@
                   </div>
                 </div>
                 <div class="row form-group">
-                  <div class="col col-sm-6 col-xs-12">
-                    <label class="col-form-label" for="date">Date</label>
-                  </div>
+                  <label
+                    class="col col-sm-6 col-xs-12 col-form-label"
+                    for="date"
+                    >Date</label
+                  >
+
                   <div class="col">
                     <input
                       type="date"
